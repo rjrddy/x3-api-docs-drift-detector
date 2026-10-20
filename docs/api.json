@@ -1,6 +1,6 @@
 [
   {
-    "path": "/obsolete",
+    "path": "/items0/{item_id}",
     "method": "get",
     "operation_id": "get_item_0",
     "parameter_type": "integer",
@@ -21,7 +21,7 @@
   },
   {
     "path": "/items1/{item_id}",
-    "method": "post",
+    "method": "get",
     "operation_id": "get_item_1",
     "parameter_type": "integer",
     "parameter_required": true,
@@ -42,7 +42,7 @@
   {
     "path": "/items2/{item_id}",
     "method": "get",
-    "operation_id": "old_name",
+    "operation_id": "get_item_2",
     "parameter_type": "integer",
     "parameter_required": true,
     "fields": {
@@ -63,7 +63,7 @@
     "path": "/items3/{item_id}",
     "method": "get",
     "operation_id": "get_item_3",
-    "parameter_type": "string",
+    "parameter_type": "integer",
     "parameter_required": true,
     "fields": {
       "id": "integer",
@@ -84,7 +84,7 @@
     "method": "get",
     "operation_id": "get_item_4",
     "parameter_type": "integer",
-    "parameter_required": false,
+    "parameter_required": true,
     "fields": {
       "id": "integer",
       "name": "string"
@@ -106,7 +106,8 @@
     "parameter_type": "integer",
     "parameter_required": true,
     "fields": {
-      "id": "integer"
+      "id": "integer",
+      "name": "string"
     },
     "required_fields": [
       "id",
@@ -125,7 +126,7 @@
     "parameter_type": "integer",
     "parameter_required": true,
     "fields": {
-      "id": "string",
+      "id": "integer",
       "name": "string"
     },
     "required_fields": [
@@ -152,7 +153,7 @@
       "id",
       "name"
     ],
-    "response_status": 201,
+    "response_status": 200,
     "example": {
       "id": 7,
       "name": "Synthetic item 7"
@@ -168,7 +169,10 @@
       "id": "integer",
       "name": "string"
     },
-    "required_fields": [],
+    "required_fields": [
+      "id",
+      "name"
+    ],
     "response_status": 200,
     "example": {
       "id": 8,
@@ -191,7 +195,7 @@
     ],
     "response_status": 200,
     "example": {
-      "id": "wrong-type",
+      "id": 9,
       "name": "Synthetic item 9"
     }
   }
