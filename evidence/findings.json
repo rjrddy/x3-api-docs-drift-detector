@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/obsolete",
+    "reason": "documented path missing from live spec"
+  },
+  {
+    "path": "/items1/{item_id}",
+    "reason": "documented method missing from live spec"
+  },
+  {
+    "path": "/items2/{item_id}",
+    "reason": "operation ID drift"
+  },
+  {
+    "path": "/items3/{item_id}",
+    "reason": "parameter type drift"
+  },
+  {
+    "path": "/items4/{item_id}",
+    "reason": "parameter requiredness drift"
+  },
+  {
+    "path": "/items5/{item_id}",
+    "reason": "response field shape drift"
+  },
+  {
+    "path": "/items6/{item_id}",
+    "reason": "response field shape drift"
+  },
+  {
+    "path": "/items7/{item_id}",
+    "reason": "response status drift"
+  },
+  {
+    "path": "/items8/{item_id}",
+    "reason": "required response fields drift"
+  },
+  {
+    "path": "/items9/{item_id}",
+    "reason": "documented example type disagrees with observed traffic"
+  }
+]

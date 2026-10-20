@@ -1,0 +1,92 @@
+[
+  {
+    "template": "/items0/{item_id}",
+    "url": "/items0/0",
+    "status": 200,
+    "response": {
+      "id": 0,
+      "name": "Synthetic item 0"
+    }
+  },
+  {
+    "template": "/items1/{item_id}",
+    "url": "/items1/1",
+    "status": 200,
+    "response": {
+      "id": 1,
+      "name": "Synthetic item 1"
+    }
+  },
+  {
+    "template": "/items2/{item_id}",
+    "url": "/items2/2",
+    "status": 200,
+    "response": {
+      "id": 2,
+      "name": "Synthetic item 2"
+    }
+  },
+  {
+    "template": "/items3/{item_id}",
+    "url": "/items3/3",
+    "status": 200,
+    "response": {
+      "id": 3,
+      "name": "Synthetic item 3"
+    }
+  },
+  {
+    "template": "/items4/{item_id}",
+    "url": "/items4/4",
+    "status": 200,
+    "response": {
+      "id": 4,
+      "name": "Synthetic item 4"
+    }
+  },
+  {
+    "template": "/items5/{item_id}",
+    "url": "/items5/5",
+    "status": 200,
+    "response": {
+      "id": 5,
+      "name": "Synthetic item 5"
+    }
+  },
+  {
+    "template": "/items6/{item_id}",
+    "url": "/items6/6",
+    "status": 200,
+    "response": {
+      "id": 6,
+      "name": "Synthetic item 6"
+    }
+  },
+  {
+    "template": "/items7/{item_id}",
+    "url": "/items7/7",
+    "status": 200,
+    "response": {
+      "id": 7,
+      "name": "Synthetic item 7"
+    }
+  },
+  {
+    "template": "/items8/{item_id}",
+    "url": "/items8/8",
+    "status": 200,
+    "response": {
+      "id": 8,
+      "name": "Synthetic item 8"
+    }
+  },
+  {
+    "template": "/items9/{item_id}",
+    "url": "/items9/9",
+    "status": 200,
+    "response": {
+      "id": 9,
+      "name": "Synthetic item 9"
+    }
+  }
+]

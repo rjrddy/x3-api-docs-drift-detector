@@ -1,0 +1,26 @@
+{
+  "id": "X3",
+  "name": "API docs drift detector",
+  "problem": "Diff documentation against a live OpenAPI spec and real traffic, open a PR to fix drift.",
+  "results": [
+    [
+      "Seeded documentation drifts detected",
+      "drifts_detected",
+      ""
+    ],
+    [
+      "False positives on clean contracts",
+      "clean_contract_false_positives",
+      ""
+    ],
+    [
+      "Actual local HTTP responses observed",
+      "observed_http_requests",
+      ""
+    ]
+  ],
+  "diagram": "RunningFastAPI --> LiveOpenAPIAndHTTPTraffic --> DocumentationDiff --> ProposedRepairPR",
+  "limits": "Original local FastAPI application and actual HTTP client requests through TestClient, not traffic from a third-party service. Ten independently seeded documentation discrepancies cover paths, methods, operation IDs, parameter schema, response fields, status, requiredness and example types. Evidence retains served OpenAPI, observed traffic, drifted docs and a clean proposed repair. This checks the supported JSON/OpenAPI subset, not arbitrary prose or all OpenAPI features. The repair PR and GitHub Action are demonstrated in this own repository; no external maintainers are contacted.",
+  "next": "Parse markdown examples, ingest proxy traffic with redaction, and handle composed/nullable schemas.",
+  "status": "done"
+}

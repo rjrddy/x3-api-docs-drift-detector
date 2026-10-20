@@ -1,0 +1,6 @@
+{
+  "seeded_drifts": 10,
+  "drifts_detected": 10,
+  "clean_contract_false_positives": 0,
+  "observed_http_requests": 10
+}
