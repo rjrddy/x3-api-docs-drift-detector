@@ -1,0 +1,56 @@
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	﻿2026-10-20T13:55:13.0065334Z ##[group]Run .venv/bin/python src/main.py --check-docs docs/api.json
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0065893Z ^[[36;1m.venv/bin/python src/main.py --check-docs docs/api.json^[[0m
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0127320Z shell: /usr/bin/bash -e {0}
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0127587Z env:
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0127859Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.16/x64
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0128324Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.16/x64/lib/pkgconfig
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0128764Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.16/x64
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0129145Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.16/x64
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0129548Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.16/x64
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0129955Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.16/x64/lib
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.0130294Z ##[endgroup]
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.3167093Z /home/runner/work/x3-api-docs-drift-detector/x3-api-docs-drift-detector/.venv/lib/python3.13/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.3169387Z   from starlette.testclient import TestClient as TestClient  # noqa
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4012058Z [
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4012492Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4012827Z     "path": "/obsolete",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4013323Z     "reason": "documented path missing from live spec"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4013813Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4014070Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4014372Z     "path": "/items1/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4014831Z     "reason": "documented method missing from live spec"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4015306Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4015563Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4015854Z     "path": "/items2/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4016249Z     "reason": "operation ID drift"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4016893Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4017156Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4017435Z     "path": "/items3/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4017813Z     "reason": "parameter type drift"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4018209Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4018453Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4018726Z     "path": "/items4/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4019139Z     "reason": "parameter requiredness drift"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4019549Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4019798Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4020069Z     "path": "/items5/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4020474Z     "reason": "response field shape drift"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4020874Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4021116Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4021383Z     "path": "/items6/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4021764Z     "reason": "response field shape drift"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4022149Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4022391Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4022664Z     "path": "/items7/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4023062Z     "reason": "response status drift"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4023443Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4023685Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4023949Z     "path": "/items8/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4024361Z     "reason": "required response fields drift"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4024778Z   },
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4025030Z   {
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4025284Z     "path": "/items9/{item_id}",
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4025805Z     "reason": "documented example type disagrees with observed traffic"
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4026536Z   }
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4026790Z ]
+lint-test-bench	Run .venv/bin/python src/main.py --check-docs docs/api.json	2026-10-20T13:55:13.4471612Z ##[error]Process completed with exit code 1.

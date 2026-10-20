@@ -1,0 +1,8 @@
+{
+  "url": "https://github.com/rjrddy/x3-api-docs-drift-detector/pull/1",
+  "base_branch": "demo/stale-docs",
+  "stale_ci": "https://github.com/rjrddy/x3-api-docs-drift-detector/actions/runs/39434554512",
+  "repair_ci": "https://github.com/rjrddy/x3-api-docs-drift-detector/actions/runs/39434569367",
+  "expected_stale_result": "failure",
+  "repair_result": "success"
+}
