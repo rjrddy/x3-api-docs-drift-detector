@@ -1,0 +1,202 @@
+[
+  {
+    "path": "/items0/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_0",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 0,
+      "name": "Synthetic item 0"
+    }
+  },
+  {
+    "path": "/items1/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_1",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 1,
+      "name": "Synthetic item 1"
+    }
+  },
+  {
+    "path": "/items2/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_2",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 2,
+      "name": "Synthetic item 2"
+    }
+  },
+  {
+    "path": "/items3/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_3",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 3,
+      "name": "Synthetic item 3"
+    }
+  },
+  {
+    "path": "/items4/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_4",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 4,
+      "name": "Synthetic item 4"
+    }
+  },
+  {
+    "path": "/items5/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_5",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 5,
+      "name": "Synthetic item 5"
+    }
+  },
+  {
+    "path": "/items6/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_6",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 6,
+      "name": "Synthetic item 6"
+    }
+  },
+  {
+    "path": "/items7/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_7",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 7,
+      "name": "Synthetic item 7"
+    }
+  },
+  {
+    "path": "/items8/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_8",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 8,
+      "name": "Synthetic item 8"
+    }
+  },
+  {
+    "path": "/items9/{item_id}",
+    "method": "get",
+    "operation_id": "get_item_9",
+    "parameter_type": "integer",
+    "parameter_required": true,
+    "fields": {
+      "id": "integer",
+      "name": "string"
+    },
+    "required_fields": [
+      "id",
+      "name"
+    ],
+    "response_status": 200,
+    "example": {
+      "id": 9,
+      "name": "Synthetic item 9"
+    }
+  }
+]
